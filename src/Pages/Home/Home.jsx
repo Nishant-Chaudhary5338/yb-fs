@@ -11,7 +11,7 @@ import MealFinder from '../../components/MealFinder'
 
 const Home = () => {
   const redirectToNewPage = () => {
-    window.location.href = "https://endearing-capybara-4446ec.netlify.app/";
+    window.location.href = "https://food-api-bhawna.netlify.app/";
   }
   
   return (
@@ -19,13 +19,17 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Qualities/>
+      <div style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '2rem', width: '100%' }}>
+  <a href="https://food-api-bhawna.netlify.app/" target='#' onClick={() => redirectToNewPage()}>Click here to Find Recipe and Ingredients</a>
+</div>
       <Menu/>
       <WhoAreWe/>
       <Team/>
       <Reservation/>
-      <div style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '2rem', width: '100%' }}>
+      {/* <MealFinder/> */}
+      {/* <div style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '2rem', width: '100%' }}>
   <a href="https://endearing-capybara-4446ec.netlify.app/" target='#' onClick={() => redirectToNewPage()}>Click here to Find Recipe and Ingredients</a>
-</div>
+</div> */}
 
 
 

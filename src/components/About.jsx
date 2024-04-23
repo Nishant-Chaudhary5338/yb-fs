@@ -13,20 +13,16 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+            Our journey began with a passion for crafting exceptional cuisine using only the freshest,
+            locally sourced ingredients. Inspired by both traditional recipes and modern culinary techniques, our menu showcases
+            a harmonious blend of flavors that celebrate the richness of our region while offering a unique twist on beloved classics.
             </p>
-            <Link to={"/"}>
-              Explore Menu{" "}
-              <span>
+            {/* <Link to={"/"}> */}
+              {/* Explore Menu{" "} */}
+              {/* <span>
                 <HiOutlineArrowRight />
-              </span>
-            </Link>
+              </span> */}
+            {/* </Link> */}
           </div>
           <div className="banner">
             <img src="about.png" alt="about" />

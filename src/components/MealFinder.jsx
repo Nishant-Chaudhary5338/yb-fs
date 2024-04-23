@@ -35,8 +35,8 @@ const MealFinder = () => {
     <div className="container mx-auto text-center px-4 py-8">
       <div className="max-w-3xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-bold mb-4">Find Meals For Your Ingredients</h2>
-          <blockquote className="text-lg text-gray-600 mb-4">Real food doesn't have ingredients, real food is ingredients.<br />- Jamie Oliver</blockquote>
+          <h3 className="text-3xl font-bold mb-4">Find Meals For Your Ingredients</h3>
+          <blockquote className="text-lg text-gray-600 mb-4">Food is symbolic of love when words are inadequate.<br />- Alan D. Wolfelt</blockquote>
           <div className="flex items-center">
             <input 
               type="text" 

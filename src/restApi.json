@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "At RUTBA, we believe that great meals start with exceptional ingredients. That's why we meticulously source the freshest,highest quality produce, meats, and seafood, ensuring that every dish we serve is infused with flavor and nutritional value." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "At RUTBA, we take immense pride in crafting culinary experiences that tantalize taste buds and leave a lasting impression. Our Super Taste section is a testament to the dedication and passion that infuses every dish we serve.." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "At RUTBA, we understand that hunger can't wait. That's why we prioritize swift delivery to bring your favorite dishes straight to your doorstep. " 
             }
         ],
         "dishes": [
