@@ -5,12 +5,14 @@ import Home from './Pages/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Success from './Pages/Success/Success';
 import './App.css'
+import AboutPage from './Pages/about/AboutPage';
 const App = () => {
   return (
     <>
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<AboutPage/>}/>
           <Route path='/success' element={<Success/>}/>
           <Route path='*' element={<NotFound/>}/>
         </Routes>
